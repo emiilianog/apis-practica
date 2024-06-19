@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <script async src="index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <form class="search_form">
+          <input
+            type="text"
+            class="header__bar"
+            name="buscado"
+            placeholder="Ingrese su producto"
+          />
+          <button class="button">Buscar</button>
+        </form>
+      </div>
+    </header>
+    <section class="products">
+      <div class="products__content">
+        <h3 class="results__number">Resultados:</h3>
+        <template id="product__result__template">
+          <div class="product__result">
+            <img
+              src="https://picsum.photos/150/150"
+              alt="imagen"
+              class="product__image"
+            />
+            <div class="product__dat">
+              <h3 class="product__name">asd</h3>
+              <h3 class="product_estado">nuevo</h3>
+              <h3 class="product__sell">vendidos</h3>
+            </div>
+            <div class="product__price">1100</div>
+          </div>
+        </template>
+      </div>
+    </section>
+  </body>
+</html>
